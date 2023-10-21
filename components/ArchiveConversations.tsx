@@ -2,7 +2,7 @@ export default function ArchiveConversations() {
   return (
     <>
       <div className="flex flex-row items-center justify-between text-xs mt-6">
-        <span className="font-bold">Archivied Conversations</span>
+        <span className="font-bold">Archived Conversations</span>
         <span className="flex items-center justify-center bg-gray-300 h-4 w-4 rounded-full text-black font-bold">
           1
         </span>

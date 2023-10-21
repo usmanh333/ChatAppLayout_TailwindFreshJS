@@ -31,20 +31,14 @@ export default function ChatPage() {
 
   return (
     <div>
-      <div className="flex h-screen antialiased text-gray-800">
+      <div className="flex h-[92vh] antialiased text-gray-800">
         <div className="flex flex-row h-full w-full overflow-x-hidden">
-          <div className="bg-[#212121ff] text-white flex flex-col py-8 pl-6 pr-2 w-64 bg-white flex-shrink-0">
-            <div className="flex flex-row items-center justify-center h-12 w-full">
-              <div className="flex items-center justify-center rounded-2xl text-indigo-700 bg-indigo-100 h-10 w-10">
-                <ChatSVG />
-              </div>
-              <div className="ml-2 font-bold text-2xl">Chat App</div>
-            </div>
+          <div className="bg-[#212121ff] text-white flex flex-col pt-3 pl-6 pr-2 w-64 bg-white flex-shrink-0">
             <ProfileHeader />
             <ActiveUsers />
           </div>
           <div className="flex flex-col flex-auto h-full p-6">
-            <div className="bg-[#191e2bff] flex flex-col flex-auto flex-shrink-0 rounded-2xl bg-gray-100 h-full p-4">
+            <div className="bg-[#191e2bff] flex flex-col flex-auto flex-shrink-0 rounded-2xl bg-gray-100 h-full p-4 ">
               <ChatMessages liveMessages={messages} />
               <div className="bg-[#f0f8ff] flex flex-row items-center h-16 rounded-xl bg-white w-full px-4">
                 <div>

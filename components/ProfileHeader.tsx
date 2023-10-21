@@ -34,7 +34,7 @@ export default function ProfileHeader() {
           </div>
         </button>
         <div className="leading-none ml-2 text-xs">
-          {isActive ? "Active" : "Inactive"}
+          {isActive ? "Online" : "Offline"}
         </div>
       </div>
     </div>
